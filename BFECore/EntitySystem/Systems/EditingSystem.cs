@@ -52,7 +52,7 @@ namespace BFECore.EntitySystem.Systems
                 }
                 else if (es.EditType == EditorType.WallMode)
                 {
-                    if (Keyboard.GetState().IsKeyDown(Keys.A))
+                    if (Keyboard.GetState().IsKeyDown(Keys.Add))
                     {
                         System.Threading.Thread.Sleep(100);
 
@@ -85,7 +85,7 @@ namespace BFECore.EntitySystem.Systems
                         entWall.WallPoints = (Vector2[])wallPoints.ToArray(typeof(Vector2));
                     }
 
-                    if (Keyboard.GetState().IsKeyDown(Keys.S))
+                    if (Keyboard.GetState().IsKeyDown(Keys.Subtract))
                     {
                         if (selectedEntity != null)
                         {
