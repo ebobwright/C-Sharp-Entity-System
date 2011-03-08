@@ -1,0 +1,23 @@
+In order to run this project, you'll need to have the XNA development kit installed.
+
+After running the project, all you should see is a blue background.
+
+Hit F2 to enter "Edit Mode" and bring up the Entity Editor Window
+
+From now on, F2 will toggle "Edit Mode" which will let you drag objects, and see grid lines
+
+In the Entity Editor, under the File Menu, select Load and navigate to the included sample level "tree_field.esx"
+
+Loading this file should bring up a sample level that you can play around with.
+
+WASD moves the character
+Arrow Keys move the camera
+
+When in "Wall Vertex" mode (selectable by radio button on the Entity Editor UI, you can use + and - to add or subtract wall vertexes for the selected objects. Sometimes after switching to wall vertex mode your current object will become deslected, just select it in the Entity Editor window to begin editing it's wall vertexes. 
+
+All other interaction can be accomplished through the tabbed property pages of the Entity Editor window.
+
+Please note, this is a developer tool, so not all component combinations may be supported by the engine and may cause unintended behavior.
+
+
+Have Fun!
