@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<parts>
+  <part name="sabin_STANDDOWN" type="sprite" image="finalfantasy6_sabin_sheet" x="2" y="48" width="16" height="24" />
+  <part name="sabinAnim_STANDUP" type="sprite" image="finalfantasy6_sabin_sheet" x="32" y="48" width="16" height="24" />
+  <part name="sabinAnim_STANDLEFT" type="sprite" image="finalfantasy6_sabin_sheet" x="62" y="48" width="16" height="24" />
+  <part name="sabinAnim_STANDRIGHT" type="sprite" image="finalfantasy6_sabin_sheet" x="92" y="48" width="16" height="24" />
+  <part name="sabinAnim_WALKDOWN" type="animation" image="finalfantasy6_sabin_sheet" width="16" height="24" framerate="4">
+    <frame x="2" y="48" />
+    <frame x="2" y="78" />
+    <frame x="2" y="48" />
+    <frame x="2" y="108" />    
+  </part>
+  <part name="sabinAnim_WALKUP" type="animation" image="finalfantasy6_sabin_sheet" width="16" height="24" framerate="4">
+    <frame x="32" y="48" />
+    <frame x="32" y="78" />
+    <frame x="32" y="48" />
+    <frame x="32" y="108" />
+  </part>
+  <part name="sabinAnim_WALKLEFT" type="animation" image="finalfantasy6_sabin_sheet" width="16" height="24" framerate="4">
+    <frame x="62" y="48" />
+    <frame x="62" y="78" />
+    <frame x="62" y="48" />
+    <frame x="62" y="108" />
+  </part>
+  <part name="sabinAnim_WALKRIGHT" type="animation" image="finalfantasy6_sabin_sheet" width="16" height="24" framerate="4">
+    <frame x="92" y="48" />
+    <frame x="92" y="78" />
+    <frame x="92" y="48" />
+    <frame x="92" y="108" />
+  </part>
+  <part name="grass_1" type="sprite" image="grass" x="0" y="0" width="512" height="512" />
+  <part name="tree_1" type="sprite" image="tree_1" x="0" y="0" width="512" height="768" />
+  <part name="cube_1" type="sprite" image="cube" x="0" y="0" width="390" height="418" />
+</parts>

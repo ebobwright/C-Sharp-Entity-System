@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Level>
+  <Sprites>
+    <Sprite Tag="Mario" Img="smwmario" />
+  </Sprites>
+  <Animations>
+    <Animation Tag="StarryBackground" Img="" />
+  </Animations>
+</Level>
